@@ -1,0 +1,12 @@
+@{
+  Layout = "_Layout";
+}
+
+<div class="jumbotron">
+<p>Weight is : @Model.GetWeight()</p>
+<p>Height is : @Model.GetHeight()</p>
+<p>Length is : @Model.GetLength()</p>
+<p>Width is : @Model.GetWidth()</p>
+<h2>Volume is : @Model.GetVolume()</h2>
+<h2>Shipping Cost : $@Model.CostToShip()</h2>
+</div>

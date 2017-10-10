@@ -1,0 +1,28 @@
+    @{
+      Layout = "_Layout";
+    }
+
+    <h1>Fill in the below details to calculate the cost and dimensions your parcel might fit in!</h1>
+    <form action='/parcel'>
+      <div class='form-group'>
+        <label for='name'>Full Name</label>
+        <input id='name' name='name' type='text'>
+      </div>
+      <div class='form-group'>
+        <label for='weight'>Weight of the package(in lbs)</label>
+        <input id='weight' name='weight' type='number'>
+      </div>
+      <div class='form-group'>
+        <label for='height'>Height of the package(in cms)</label>
+        <input id='height' name='height' type='number'>
+      </div>
+      <div class='form-group'>
+        <label for='length'>Length of the item(in cms)</label>
+        <input id='length' name='length' type='number'>
+      </div>
+      <div class='form-group'>
+        <label for='width'>Width of the item(in cms)</label>
+        <input id='width' name='width' type='number'>
+      </div>
+      <button type='submit' class='btn'>Go!</button>
+    </form>
